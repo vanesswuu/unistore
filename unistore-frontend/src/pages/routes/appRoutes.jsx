@@ -1,29 +1,29 @@
 import { Routes, Route } from "react-router-dom";
 
 // user pages
-import Home from "../pages/user/home";
-import Shop from "../pages/user/shop";
-import ProductDetails from "../pages/user/productDetails";
-import Cart from "../pages/user/cart";
-import Checkout from "../pages/user/checkout";
-import Receipt from "../pages/user/receipt";
-import Claim from "../pages/user/claim";
-import Login from "../pages/user/login";
-import Register from "../pages/user/register";
-import Profile from "../pages/user/profile";
-import OrderHistory from "../pages/user/orderHistory";
+import Home from "../user/home";
+import Shop from "../user/shop";
+import ProductDetails from "../user/productDetails";
+import Cart from "../user/cart";
+import Checkout from "../user/checkout";
+import Receipt from "../user/receipt";
+import Claim from "../user/claim";
+import Login from "../user/login";
+import Register from "../user/register";
+import Profile from "../user/profile";
+import OrderHistory from "../user/orderHistory";
 
 // admin pages
-import AdminLogin from "../pages/admin/adminLogin";
-import AdminDashboard from "../pages/admin/adminDashboard";
-import AdminProducts from "../pages/admin/adminProducts";
-import AdminAddProduct from "../pages/admin/adminAddProduct";
-import AdminEditProduct from "../pages/admin/adminEditProduct";
-import AdminOrders from "../pages/admin/adminOrders";
-import AdminOrderDetails from "../pages/admin/adminOrderDetails";
-import AdminInventory from "../pages/admin/adminInventory";
-import AdminCategories from "../pages/admin/adminCategories";
-import AdminUsers from "../pages/admin/adminUsers";
+import AdminLogin from "../admin/adminLogin";
+import AdminDashboard from "../admin/adminDashboard";
+import AdminProducts from "../admin/adminProducts";
+import AdminAddProduct from "../admin/adminAddProduct";
+import AdminEditProduct from "../admin/adminEditProduct";
+import AdminOrders from "../admin/adminOrders";
+import AdminOrderDetails from "../admin/adminOrderDetails";
+import AdminInventory from "../admin/adminInventory";
+import AdminCategories from "../admin/adminCategories";
+import AdminUsers from "../admin/adminUsers";
 
 function AppRoutes() {
   return (
